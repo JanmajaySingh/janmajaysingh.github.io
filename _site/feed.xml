@@ -1,20 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-27T15:35:36+09:00</updated><id>/feed.xml</id><title type="html">Janmajay Singh’s Blog</title><subtitle>&lt;&lt;This is related to the _site/config.yml file.&gt;&gt; Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/06/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-27T12:03:15+09:00</published><updated>2021-06-27T12:03:15+09:00</updated><id>/jekyll/update/2021/06/27/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/06/27/welcome-to-jekyll.html">&lt;p&gt;This is under root/posts.
-For some reason the about page is not under posts directory?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning and Medicine</title>
+    <description>By Janmajay, Researcher in Biological and Health Informatics</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Jun 2021 00:16:54 +0900</pubDate>
+    <lastBuildDate>Mon, 28 Jun 2021 00:16:54 +0900</lastBuildDate>
+    <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>Lorem Ipsum</title>
+        <description>&lt;h2 id=&quot;lorem-ipsum&quot;&gt;Lorem Ipsum&lt;/h2&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices dui vel rhoncus pellentesque. Nunc a nunc non tortor lacinia vestibulum. Integer et dignissim ex. Donec gravida, tortor quis mattis aliquet, sem massa pellentesque nisi, vitae luctus tortor ex et orci. Fusce sodales in turpis a maximus.&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Jun 2021 19:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2021/06/27/Induction-Intro/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/06/27/Induction-Intro/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum1</title>
+        <description>&lt;h2 id=&quot;lorem-ipsum1&quot;&gt;Lorem Ipsum1&lt;/h2&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultrices dui vel rhoncus pellentesque. Nunc a nunc non tortor lacinia vestibulum. Integer et dignissim ex. Donec gravida, tortor quis mattis aliquet, sem massa pellentesque nisi, vitae luctus tortor ex et orci. Fusce sodales in turpis a maximus.&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">This is under root/posts. For some reason the about page is not under posts directory?</summary></entry></feed>
+</description>
+        <pubDate>Sat, 26 Jun 2021 19:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2021/06/26/test/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/06/26/test/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
