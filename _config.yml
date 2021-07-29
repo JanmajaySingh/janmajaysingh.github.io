@@ -22,6 +22,8 @@ page:
 #editor: gvim
 git:
   branch: master
+plugins:
+  - jekyll-seo-tag
 # transfer:
 #   command: rsync
 #   settings: -av
