@@ -82,7 +82,7 @@ jQuery(function(){
         <p class="intro" style="padding-top: 10px;">
            I am a researcher focussed on medical applications of machine learning. My interests revolve around temporal models for disease and intervention prediction. This interest motivated my participation in the Physionet 2019 challenge in which my team finished 5th internationally. More recently, I have been working on translating research in metagenomics to multiplexed PCR assays of human circulating free DNA (cfDNA) in order to reduce measurement noise. 
            <br><br>
-           In my spare time, I mentor students from my alma mater, guiding them through research topics encompassing various machine learning domains..
+           In my spare time, I mentor students from my alma mater, guiding them through research topics encompassing various machine learning domains.
            <br><br>
            For more details, please see my <a href="../assets/Janmajay-CV.pdf"> Curriculum Vitae</a> and <a href="https://scholar.google.com/citations?user=J99ZMvcAAAAJ&hl=en">Google Scholar</a>.
         </p>
@@ -154,7 +154,14 @@ jQuery(function(){
               [<a href="">Paper</a>]
             </p>
             <div id="div29" class="abstract">
-              Detailed analysis of the true value of using healthcare process variables in predictive machine learning models for the ICU. Full abstract available soon.
+              <u>Background:</u> Missing data in Electronic Health Records is inevitable and considered to be non-random. Several studies have found that features indicating missing patterns (missingness) encode useful information about a patient's health and advocate their inclusion in clinical prediction models. But their effectiveness has not been comprehensively evaluated.
+              Objective: To study the effect of including informative missingness features in machine learning models for various clinically relevant outcomes and explore robustness of these features across patient subgroups and task settings.
+              <br>
+              <u>Methods:</u> A total of 48,336 electronic health records from the 2012 and 2019 Physionet Challenges were used and mortality, length-of-stay (LOS) and sepsis outcomes were chosen. The latter dataset was multi-center, allowing external validation. Gated Recurrent Units were used to learn sequential patterns in the data and classify or predict labels of interest. Models were evaluated on various criteria evaluating discriminative ability and calibration, as well as across population subgroups.
+              <br>
+              <u>Results:</u> Generally improved model performance in retrospective tasks was observed on including missingness features. Extent of improvement depended on the outcome of interest (AUROC improved 1.2% - 7.7%) and even patient subgroup. However, missingness features did not display utility in a simulated prospective setting, being outperformed (0.9% difference in AUROC) by the model relying only on pathological features. This was despite leading to earlier detection of disease (true positives), since including these features led to a concomitant rise in false positive detections.
+              <br>
+              <u>Conclusions:</u> This study comprehensively evaluated effectiveness of missingness features on machine learning models. A detailed understanding of how these features affect model performance may lead to their informed use in clinical settings especially for administrative tasks like LOS prediction where they present the greatest benefit. While missingness features, representative of healthcare processes, vary greatly due to intra and inter-hospital factors, they may still be used in prediction models for clinically relevant outcomes. However, their use in prospective models producing frequent predictions needs to be explored further.
             </div>
           </div>
         </li>
