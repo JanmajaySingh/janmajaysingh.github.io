@@ -81,7 +81,9 @@ jQuery(function(){
         </div>
       </div>
         <p class="intro" style="padding-top: 10px;">
-           I am a researcher focussed on medical applications of machine learning. My interests revolve around temporal models for disease and intervention prediction. This interest motivated my participation in the Physionet 2019 challenge in which my team finished 5th internationally. More recently, I have been working on translating research in metagenomics to multiplexed PCR assays of human circulating free DNA (cfDNA) in order to reduce measurement noise. 
+
+          
+           I am a researcher focused on medical applications of machine learning. My interests revolve around temporal models for disease and intervention prediction. This interest motivated my participation in the Physionet 2019 challenge in which my team finished 5th internationally. More recently, I have been working on translating research in metagenomics to multiplexed PCR assays of human circulating free DNA (cfDNA) in order to reduce measurement noise. 
            <br><br>
            In my spare time, I mentor students from my alma mater, guiding them through research topics encompassing various machine learning domains.
            <br><br>
@@ -101,7 +103,8 @@ jQuery(function(){
     <div class="timelineitem">
       <div class="tdate">2020-Present</div>
       <div class="ttitle">Fujifilm Healthcare</div>
-      <div class="tdesc">Researcher, <span class="thigh">Quantitative Biology</span></div>
+      <div class="tdesc">Researcher, <span class="thigh">Computational Biology</span></div>
+      <div class="tdesc">Technical Report Award (2021)</div>
       </div>
     </div>
 
@@ -109,7 +112,7 @@ jQuery(function(){
       <div class="tdate">2017-2020</div>
       <div class="ttitle">Fuji Xerox Co., Ltd.</div>
       <div class="tdesc">Researcher, <span class="thigh">Medical Informatics</span></div>
-      <div class="tdesc">Outstanding Research Award x2</div>
+      <div class="tdesc">Outstanding Research Award x2 (2020,2021)</div>
     </div>
 
     <div class="timelineitem">
@@ -150,9 +153,9 @@ jQuery(function(){
           <div class="pub-info">
             <h3>On Missingness Features in Machine Learning Models for Critical Care: Observational Study</h3>
             <u>Janmajay Singh</u>, Masahiro Sato, Ohkuma Tomoko <br>
-              <i>JMIR Medical Informatics, 2021 (forthcoming)<br>
+              <i>JMIR Medical Informatics, 2021<br>
               [<a class="showSingle", target="29">Abstract</a>]
-              [<a href="">Paper</a>]
+              [<a href="https://medinform.jmir.org/2021/12/e25022">Paper</a>]
             </p>
             <div id="div29" class="abstract">
               <u>Background:</u> Missing data in Electronic Health Records is inevitable and considered to be non-random. Several studies have found that features indicating missing patterns (missingness) encode useful information about a patient's health and advocate their inclusion in clinical prediction models. But their effectiveness has not been comprehensively evaluated.
@@ -163,6 +166,23 @@ jQuery(function(){
               <u>Results:</u> Generally improved model performance in retrospective tasks was observed on including missingness features. Extent of improvement depended on the outcome of interest (AUROC improved 1.2% - 7.7%) and even patient subgroup. However, missingness features did not display utility in a simulated prospective setting, being outperformed (0.9% difference in AUROC) by the model relying only on pathological features. This was despite leading to earlier detection of disease (true positives), since including these features led to a concomitant rise in false positive detections.
               <br>
               <u>Conclusions:</u> This study comprehensively evaluated effectiveness of missingness features on machine learning models. A detailed understanding of how these features affect model performance may lead to their informed use in clinical settings especially for administrative tasks like LOS prediction where they present the greatest benefit. While missingness features, representative of healthcare processes, vary greatly due to intra and inter-hospital factors, they may still be used in prediction models for clinically relevant outcomes. However, their use in prospective models producing frequent predictions needs to be explored further.
+            </div>
+          </div>
+        </li>
+
+
+
+        <li>
+          <img src="../assets/ecir21-2.png" class="pub-image">
+          <div class="pub-info">
+            <h3>Causality-Aware Neighborhood Methods for Recommender Systems</h3>
+            Masahiro Sato, <u>Janmajay Singh</u>, Sho Takemori, Qian Zhang<br>
+              <i>ECIR '21: European Conference on Information Retrieval<br>
+              [<a class="showSingle", target="29">Abstract</a>]
+              [<a href="https://link.springer.com/chapter/10.1007/978-3-030-72113-8_40">Paper</a>]
+            </p>
+            <div id="div29" class="abstract">
+              The business objectives of recommenders, such as increasing sales, are aligned with the causal effect of recommendations. Previous recommenders targeting for the causal effect employ the inverse propensity scoring (IPS) in causal inference. However, IPS is prone to suffer from high variance. The matching estimator is another representative method in causal inference field. It does not use propensity and hence free from the above variance problem. In this work, we unify traditional neighborhood recommendation methods with the matching estimator, and develop robust ranking methods for the causal effect of recommendations. Our experiments demonstrate that the proposed methods outperform various baselines in ranking metrics for the causal effect. The results suggest that the proposed methods can achieve more sales and user engagement than previous recommenders.
             </div>
           </div>
         </li>
@@ -179,6 +199,38 @@ jQuery(function(){
           </p>
           <div id="div28" class="abstract">
             Online learning platforms also known as Computer Aided Education Systems have recently grown in importance owing to their ability to personalize study plans in accordance with individual student requirements. Learning platforms have modeled student knowledge state using student responses with the recently popular Deep Knowledge Tracing (DKT) technique. Using context information has also proven effective in various predictive problems prompting learning platforms to store a variety of context features about a student’s performance history. An example context may be response time, where shorter times to answer questions may indicate higher mastery of a skill. Therefore, it is crucial to incorporate context features in the most effective way possible. Most of the research in DKT either use no context features, or use a set of context features that span only a narrow set of student characteristics. To overcome this, we identify a wide set of context features and incorporate their interactions into the DKT model. We then observe the effects of incorporating these additional context feature interactions and also propose an adaptive weighting technique that learns the appropriate context feature interaction weights. These techniques are compared with state-of-the-art baselines and their performances were evaluated using AUC scores.
+          </div>
+        </div>
+      </li>
+
+
+      <li>
+        <img src="../assets/recsys20.png" class="pub-image">
+        <div class="pub-info">
+          <h3>Unbiased Learning for the Causal Effect of Recommendation</h3>
+          Masahiro Sato, Sho Takemori, <u>Janmajay Singh</u>, Tomoko Ohkuma<br>
+            <i>RecSys '20: Fourteenth ACM Conference on Recommender Systems<br>
+            [<a class="showSingle", target="26">Abstract</a>]
+            [<a href="https://dl.acm.org/doi/10.1145/3383313.3412261">Paper</a>]
+          </p>
+          <div id="div26" class="abstract">
+            Increasing users’ positive interactions, such as purchases or clicks, is an important objective of recommender systems. Recommenders typically aim to select items that users will interact with. If the recommended items are purchased, an increase in sales is expected. However, the items could have been purchased even without recommendation. Thus, we want to recommend items that results in purchases caused by recommendation. This can be formulated as a ranking problem in terms of the causal effect. Despite its importance, this problem has not been well explored in the related research. It is challenging because the ground truth of causal effect is unobservable, and estimating the causal effect is prone to the bias arising from currently deployed recommenders. This paper proposes an unbiased learning framework for the causal effect of recommendation. Based on the inverse propensity scoring technique, the proposed framework first constructs unbiased estimators for ranking metrics. Then, it conducts empirical risk minimization on the estimators with propensity capping, which reduces variance under finite training samples. Based on the framework, we develop an unbiased learning method for the causal effect extension of a ranking metric. We theoretically analyze the unbiasedness of the proposed method and empirically demonstrate that the proposed method outperforms other biased learning methods in various settings.
+          </div>
+        </div>
+      </li>
+
+
+      <li>
+        <img src="../assets/sac20.png" class="pub-image">
+        <div class="pub-info">
+          <h3>Modeling user exposure with recommendation influence</h3>
+          Masahiro Sato, <u>Janmajay Singh</u>, Sho Takemori, Takashi Sonoda, Qian Zhang, Tomoko Ohkuma<br>
+            <i>SAC '20: Proceedings of the 35th Annual ACM Symposium on Applied Computing<br>
+            [<a class="showSingle", target="26">Abstract</a>]
+            [<a href="https://dl.acm.org/doi/abs/10.1145/3341105.3375760">Paper</a>]
+          </p>
+          <div id="div26" class="abstract">
+            Recommender systems learn users' preferences from their explicit feedback, such as ratings, and implicit feedback, such as purchases. Learning a user's preference from implicit feedback is difficult since inaction in such data can be because of either dislike for an item or unawareness. Exposure modeling has been proposed recently to address this ambiguity by decomposing inaction into dislike and unawareness. A user's awareness of items can be affected by several factors, and exposure modeling has been extended to include social and temporal influences on exposure to provide better recommendations. However, recommendation itself should also affect a user's awareness of items. Recommendations boost awareness differently for different users; while some users are attentive to and trust recommendations, others neglect or distrust recommendations. Furthermore, if a user purchases an item from a recommendation list, the user would have likely noticed other items on the same list. In this paper, we extend exposure modeling by considering the influence of recommendations on exposure. We accomplish this by incorporating: (1) user-dependent increase in awareness of recommended items and (2) indirect increase in awareness of an item by the purchase of other items from the same recommendation list. Through experiments using public datasets with recommendation logs, we demonstrate that considering recommendation influence improves purchase prediction.
           </div>
         </div>
       </li>
@@ -202,27 +254,11 @@ jQuery(function(){
 
 
       <li>
-        <img src="../assets/recsys20.png" class="pub-image">
-        <div class="pub-info">
-          <h3>Unbiased Learning for the Causal Effect of Recommendation</h3>
-          Masahiro Sato, Sho Takemori, <u>Janmajay Singh</u>, Tomoko Ohkuma<br>
-            <i>RecSys '20: Fourteenth ACM Conference on Recommender Systems<br>
-            [<a class="showSingle", target="26">Abstract</a>]
-            [<a href="https://dl.acm.org/doi/10.1145/3383313.3412261">Paper</a>]
-          </p>
-          <div id="div26" class="abstract">
-            Increasing users’ positive interactions, such as purchases or clicks, is an important objective of recommender systems. Recommenders typically aim to select items that users will interact with. If the recommended items are purchased, an increase in sales is expected. However, the items could have been purchased even without recommendation. Thus, we want to recommend items that results in purchases caused by recommendation. This can be formulated as a ranking problem in terms of the causal effect. Despite its importance, this problem has not been well explored in the related research. It is challenging because the ground truth of causal effect is unobservable, and estimating the causal effect is prone to the bias arising from currently deployed recommenders. This paper proposes an unbiased learning framework for the causal effect of recommendation. Based on the inverse propensity scoring technique, the proposed framework first constructs unbiased estimators for ranking metrics. Then, it conducts empirical risk minimization on the estimators with propensity capping, which reduces variance under finite training samples. Based on the framework, we develop an unbiased learning method for the causal effect extension of a ranking metric. We theoretically analyze the unbiasedness of the proposed method and empirically demonstrate that the proposed method outperforms other biased learning methods in various settings.
-          </div>
-        </div>
-      </li>
-
-
-      <li>
         <img src="../assets/physiomeas20.png" class="pub-image">
         <div class="pub-info">
           <h3>Remote health diagnosis and monitoring in the time of COVID-19</h3>
           Joachim A Behar, Chengyu Liu, Kevin Kotzen, Kenta Tsutsui, Valentina D A Corino, <u>Janmajay Singh</u>, ..., Gari D Clifford<br>
-            <i>Physiological Measurement<br>
+            <i>Physiological Measurement, 2020<br>
             [<a class="showSingle", target="25">Abstract</a>]
             [<a href="https://iopscience.iop.org/article/10.1088/1361-6579/abba0a/meta">Paper</a>]
           </p>
